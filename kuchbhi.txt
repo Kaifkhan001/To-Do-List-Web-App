@@ -1,0 +1,23 @@
+
+            <!-- <div class="item">
+            <div>
+                <img src="/images/unchecked.png" alt="">
+                <h5>Your Added Task</h5>
+            </div>
+                    <i class='bx bxs-x-circle'></i>
+                
+            </div> -->
+
+
+
+            
+            <!-- <div class="item">
+            <div>
+                <img src="/images/unchecked.png" alt="">
+                <h5>Your Added Task</h5>
+            </div>
+                    <i class='bx bxs-x-circle'></i>
+                
+            </div> -->
+
+            <i class='bx bx-x'></i>
