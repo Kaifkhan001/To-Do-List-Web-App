@@ -23,7 +23,7 @@ function createList(){
   // console.log(i);
   i.setAttribute('class','bx bx-x');
   text.innerText = inputVal.value;
-  img.src = "/images/unchecked.png";
+  img.src = "./images/unchecked.png";
   div.appendChild(img);
   div.appendChild(text);
   item.appendChild(div);
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const img = event.target;
       const currentState = img.getAttribute("data-state");
       const newState = currentState === "checked" ? "unchecked" : "checked";
-      img.src = `/images/${newState}.png`;
+      img.src = `./images/${newState}.png`;
       img.setAttribute("data-state", newState);
       const parentItem = img.closest(".item");
       const h5Element = parentItem.querySelector("h5");
